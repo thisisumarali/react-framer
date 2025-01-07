@@ -1,6 +1,7 @@
 import About from "./Components/About.jsx";
 import Hero from "./Components/Hero.jsx";
 import Navbar from "./Components/Navbar.jsx";
+import Technologies from "./Components/Technologies.jsx";
 function App() {
   return (
     <div className="overflow-x-hidden text-neutral-300 antialiased  selection:bg-cyan-300 selection:text-cyan-900">
@@ -11,6 +12,7 @@ function App() {
         <Navbar />
         <Hero />
         <About />
+        <Technologies />
       </div>
     </div>
   );
