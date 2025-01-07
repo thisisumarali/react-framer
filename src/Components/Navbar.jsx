@@ -11,10 +11,18 @@ function Navbar() {
         <h2 className="font-bold text-2xl lg:text-3xl ">Umar Khan</h2>
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <FaLinkedin />
-        <FaGithub />
-        <FaFacebook />
-        <FaInstagram />
+        <a href="https://www.linkedin.com/in/umerkhandev" target="_blank">
+          <FaLinkedin />
+        </a>
+        <a href="">
+          <FaGithub />
+        </a>
+        <a href="">
+          <FaFacebook />
+        </a>
+        <a href="">
+          <FaInstagram />
+        </a>
       </div>
     </nav>
   );
