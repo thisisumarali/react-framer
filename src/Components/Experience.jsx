@@ -1,9 +1,10 @@
 import { EXPERIENCES } from "../constants";
+import H2 from "./H2";
 
 const Experience = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
-      <h1 className="my-20 text-center text-4xl">Experience</h1>
+      <H2>Experience</H2>
       <div>
         {EXPERIENCES.map((exp, index) => (
           <div className="mb-8  flex flex-wrap lg:justify-center" key={index}>

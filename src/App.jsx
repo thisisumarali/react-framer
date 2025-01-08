@@ -1,7 +1,9 @@
 import About from "./Components/About.jsx";
+import Contact from "./Components/Contact.jsx";
 import Experience from "./Components/Experience.jsx";
 import Hero from "./Components/Hero.jsx";
 import Navbar from "./Components/Navbar.jsx";
+import Project from "./Components/Project.jsx";
 import Technologies from "./Components/Technologies.jsx";
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <About />
         <Technologies />
         <Experience />
+        <Project />
+        <Contact />
       </div>
     </div>
   );
