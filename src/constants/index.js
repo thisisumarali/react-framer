@@ -5,7 +5,7 @@ import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `A full-stack web developer adept in Next.js, HTML, CSS, JavaScript, and TypeScript, bringing a versatile skill set to create dynamic and engaging web experiences. Lets build something extraordinary together!`;
 
-export const ABOUT_TEXT = `I am a full stack web developer with a passion for creating interactive and responsive web applications. I have experience working with JavaScript, React, Redux, Node.js, Express, PostgreSQL, Sequelize, HTML, CSS, and Git. I am a quick learner and I am always looking to expand my knowledge and skill set. I am a team player and I am excited to work with others to create amazing applications.`;
+export const ABOUT_TEXT = `I am a passionate and dedicated full-stack developer specializing in building modern, responsive, and user-friendly web applications. With expertise in cutting-edge technologies like Next.js, React, TypeScript, JavaScript, and Tailwind CSS, I create seamless front-end experiences that captivate users. I leverage tools like ShadCN and Framer Motion to add dynamic, visually appealing animations and interactions that enhance the overall design. My skill set extends to crafting robust back-end systems, ensuring that every project is scalable, efficient, and tailored to client needs. Whether it's developing elegant user interfaces or implementing powerful server-side solutions, I strive to deliver high-quality work that combines creativity with technical excellence. I'm always excited to tackle new challenges and contribute to meaningful projects that push the boundaries of web development.`;
 
 export const EXPERIENCES = [
   {
