@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import client from "../../framer-portfolio/sanity";
+import client from "../lib/sanity";
 
 async function getProjects() {
   const query = `*[_type=="project"]{
