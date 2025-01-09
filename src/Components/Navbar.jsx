@@ -14,13 +14,13 @@ function Navbar() {
         <a href="https://www.linkedin.com/in/umerkhandev" target="_blank">
           <FaLinkedin />
         </a>
-        <a href="">
+        <a href="https://github.com/thisisumarali/" target="_blank">
           <FaGithub />
         </a>
-        <a href="">
+        <a href="https://www.facebook.com/umarkhandev" target="_blank">
           <FaFacebook />
         </a>
-        <a href="">
+        <a href="https://www.instagram.com/umarkhaan._/" target="_blank">
           <FaInstagram />
         </a>
       </div>

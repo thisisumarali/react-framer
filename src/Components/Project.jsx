@@ -1,7 +1,29 @@
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { PROJECTS } from "../constants";
+import client from "../../framer-portfolio/sanity";
 
-const Project = () => {
+async function getProjects() {
+  const query = `*[_type=="project"]{
+    title,
+    description,
+    _id,
+    "image": image.asset->url,
+    link,
+    technologies,
+  }`;
+  return await client.fetch(query);
+}
+
+export default function Project() {
+  const [projects, setProjects] = useState([]);
+
+  useEffect(() => {
+    // Fetch projects data
+    getProjects().then((data) => {
+      setProjects(data);
+    });
+  }, []);
+
   return (
     <div className="border-b border-neutral-900 pb-4">
       <motion.h2
@@ -13,7 +35,7 @@ const Project = () => {
         Projects
       </motion.h2>
       <div>
-        {PROJECTS.map((project, index) => (
+        {projects.map((project, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
@@ -21,13 +43,15 @@ const Project = () => {
               transition={{ duration: 0.5 }}
               className="w-full lg:w-1/4"
             >
-              <img
-                src={project.image}
-                alt={project.title}
-                width={150}
-                height={150}
-                className="mb-6 rounded"
-              />
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  width={150}
+                  height={150}
+                  className="mb-6 rounded cursor-pointer"
+                />
+              </a>
             </motion.div>
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
@@ -51,6 +75,4 @@ const Project = () => {
       </div>
     </div>
   );
-};
-
-export default Project;
+}
