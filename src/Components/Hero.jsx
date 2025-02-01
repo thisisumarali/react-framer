@@ -26,14 +26,17 @@ const Hero = () => {
                 Umar Khan
               </motion.h1>
             </h1>
-            <motion.span
-              variants={container(0.5)}
-              initial="hidden"
-              animate="visible"
-              className="bg-gradient-to-t from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent"
-            >
-              Full Stack - React Developer
-            </motion.span>
+            <h2>
+       
+              <motion.span
+                variants={container(0.5)}
+                initial="hidden"
+                animate="visible"
+                className="bg-gradient-to-t from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent"
+              >
+                Full Stack - React Developer
+              </motion.span>
+            </h2>
             <motion.p
               variants={container(1)}
               initial="hidden"
