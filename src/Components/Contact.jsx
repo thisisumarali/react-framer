@@ -33,7 +33,7 @@ const Contact = () => {
         </motion.p>
 
         <a
-          href="mailto:umeralikhan7864@gmail.com"
+          href="mailto:thisisumaralii@gmail.com"
           target="_blank"
           className="border-b"
         >
