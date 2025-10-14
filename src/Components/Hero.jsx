@@ -75,7 +75,7 @@ const Hero = () => {
                   variants={container(1)}
                   initial="hidden"
                   animate="visible"
-                  className="mb-4 max-w-xl py-3 font-light tracking-tighter text-center lg:text-left"
+                  className="mb-2 lg:mb-4 max-w-xl py-3 font-light tracking-tighter text-center lg:text-left"
                 >
                   {HERO_CONTENT}
                 </motion.p>
@@ -88,7 +88,7 @@ const Hero = () => {
                   variants={container(1.2)}
                   initial="hidden"
                   animate="visible"
-                  className="mt-4 rounded-full bg-gradient-to-r from-emerald-500 via-cyan-500 to-blue-600 px-8 py-3 text-lg font-semibold text-white shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-cyan-400/40"
+                  className="mb-4 rounded-full bg-gradient-to-r from-emerald-500 via-cyan-500 to-blue-600 px-6 py-3 lg:px-8 lg:py-3 text-lg font-semibold text-white shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-cyan-400/40"
                 >
                   View Resume
                 </motion.a>
