@@ -1,11 +1,10 @@
-import { RiReactjsFill } from "react-icons/ri";
+import { RiReactjsFill, RiTailwindCssFill } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiMongodb } from "react-icons/si";
-// import { DiRedis } from "react-icons/di";
+import { SiExpress, SiMongodb } from "react-icons/si";
+import { DiNodejs } from "react-icons/di";
+import { AiOutlineConsoleSql } from "react-icons/ai";
 import { SiTypescript } from "react-icons/si";
-// import { FaNodeJs } from "react-icons/fa";
-import { RiSupabaseFill } from "react-icons/ri";
-import { TbBrandFramerMotion } from "react-icons/tb";
+
 import { motion } from "framer-motion";
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -44,6 +43,7 @@ const Technologies = () => {
         >
           <RiReactjsFill className="text-7xl text-cyan-400 " />
         </motion.div>
+
         <motion.div
           variants={iconVariants(3)}
           initial="initial"
@@ -51,6 +51,23 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <TbBrandNextjs className="text-7xl " />
+        </motion.div>
+
+        <motion.div
+          variants={iconVariants(4)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <DiNodejs className="text-7xl text-green-600 " />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(6)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiExpress className="text-7xl text-white " />
         </motion.div>
         <motion.div
           variants={iconVariants(5)}
@@ -60,9 +77,15 @@ const Technologies = () => {
         >
           <SiMongodb className="text-7xl text-green-500 " />
         </motion.div>
-        {/* <div className="rounded-2xl border-4 border-neutral-800 p-4">
-          <DiRedis className="text-7xl text-red-700 " />
-        </div> */}
+        <motion.div
+          variants={iconVariants(5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <AiOutlineConsoleSql className="text-7xl text-slate-400 " />
+        </motion.div>
+
         <motion.div
           variants={iconVariants(2)}
           initial="initial"
@@ -71,24 +94,13 @@ const Technologies = () => {
         >
           <SiTypescript className="text-7xl text-sky-800 " />
         </motion.div>
-        {/* <div className="rounded-2xl border-4 border-neutral-800 p-4">
-          <FaNodeJs className="text-7xl text-green-500 " />
-        </div> */}
         <motion.div
-          variants={iconVariants(6)}
+          variants={iconVariants(2)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <TbBrandFramerMotion className="text-7xl text-pink-600 " />
-        </motion.div>
-        <motion.div
-          variants={iconVariants(4)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <RiSupabaseFill className="text-7xl text-[#3Ecf8e] " />
+          <RiTailwindCssFill className="text-7xl text-blue-500 " />
         </motion.div>
       </motion.div>
     </div>

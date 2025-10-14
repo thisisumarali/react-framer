@@ -3,9 +3,9 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `A full-stack web developer adept in Next.js, HTML, CSS, JavaScript, and TypeScript, bringing a versatile skill set to create dynamic and engaging web experiences. Lets build something extraordinary together!`;
+export const HERO_CONTENT = `A passionate Full Stack MERN Developer skilled in React, Next.js, and React Native for building powerful web and mobile applications. Experienced with Node.js, Express, MongoDB, and SQL for creating robust backend systems. Let's build something extraordinary together!`;
 
-export const ABOUT_TEXT = `I am a passionate and dedicated full-stack developer specializing in building modern, responsive, and user-friendly web applications. With expertise in cutting-edge technologies like Next.js, React, TypeScript, JavaScript, and Tailwind CSS, I create seamless front-end experiences that captivate users. I leverage tools like ShadCN and Framer Motion to add dynamic, visually appealing animations and interactions that enhance the overall design. My skill set extends to crafting robust back-end systems, ensuring that every project is scalable, efficient, and tailored to client needs. Whether it's developing elegant user interfaces or implementing powerful server-side solutions, I strive to deliver high-quality work that combines creativity with technical excellence. I'm always excited to tackle new challenges and contribute to meaningful projects that push the boundaries of web development.`;
+export const ABOUT_TEXT = `I am a passionate and results-driven Full Stack MERN Developer specializing in creating modern, responsive, and high-performance web and mobile applications. With expertise in React, Next.js, and React Native, I deliver seamless front-end experiences that blend functionality with elegant design. On the back end, I work with Node.js, Express, MongoDB, and SQL to build secure, scalable, and efficient systems. I also utilize tools like Tailwind CSS, ShadCN, and Framer Motion to craft visually engaging interfaces with smooth animations and intuitive interactions. My goal is to develop solutions that are not only technically sound but also impactful, ensuring every project delivers real value. I’m always eager to learn, innovate, and contribute to meaningful projects that push the limits of modern development.`;
 
 export const EXPERIENCES = [
   {
@@ -70,7 +70,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Karachi,Pakistan ",
+  address: "Karachi, Pakistan ",
   phoneNo: "+92-3110205791 ",
-  email: "umeralikhan7864@gmail.com",
+  email: "thisisumaralii@gmail.com",
 };

@@ -1,6 +1,6 @@
 import About from "./Components/About.jsx";
+import Achievements from "./Components/Achievements.jsx";
 import Contact from "./Components/Contact.jsx";
-import Experience from "./Components/Experience.jsx";
 import Hero from "./Components/Hero.jsx";
 import Navbar from "./Components/Navbar.jsx";
 import Project from "./Components/Project.jsx";
@@ -17,8 +17,8 @@ function App() {
           <Navbar />
           <Hero />
           <About />
+          <Achievements />
           <Technologies />
-          <Experience />
           <Project />
           <Contact />
         </div>
