@@ -40,7 +40,7 @@ const Hero = () => {
                   variants={container(0.5)}
                   initial="hidden"
                   animate="visible"
-                  className="bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500  bg-clip-text  text-3xl lg:text-4xl tracking-tight text-transparent"
+                  className="bg-gradient-to-r mb-2 from-emerald-400 via-cyan-400 to-blue-500  bg-clip-text  text-3xl lg:text-4xl 2xl:text-5xl tracking-tight text-transparent"
                 >
                   Full Stack Developer
                 </motion.span>
@@ -50,23 +50,23 @@ const Hero = () => {
                   variants={container(0.8)}
                   initial="hidden"
                   animate="visible"
-                  className="py-3 text-2xl lg:text-3xl font-semibold text-center lg:text-left"
+                  className="py-3 text-2xl lg:text-3xl 2xl:text-4xl font-semibold text-center lg:text-left"
                 >
                   <span className="text-slate-400">An expert in creating </span>
-                  <br className="block lg:hidden" />
+                  <br className="block md:hidden lg:block 2xl:hidden" />
                   <TypeAnimation
                     sequence={[
-                      "web applications.",
+                      "Web applications.",
                       1000,
-                      "mobile applications.",
+                      "Mobile applications.",
                       1000,
-                      "responsive websites.",
+                      "Responsive websites.",
                       1000,
                     ]}
                     wrapper="span"
                     speed={50}
                     repeat={Infinity}
-                    className="bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent"
+                    className="bg-gradient-to-r from-emerald-400 lg:text-5xl 2xl:text-4xl  via-cyan-400 to-blue-500 bg-clip-text text-transparent"
                   />
                 </motion.div>
 
