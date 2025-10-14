@@ -1,7 +1,8 @@
 // import Logo from "../assets/logo.png";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
+import { PiReadCvLogoLight } from "react-icons/pi";
+
 import { FaInstagram } from "react-icons/fa";
 function Navbar() {
   return (
@@ -17,10 +18,13 @@ function Navbar() {
         <a href="https://github.com/thisisumarali/" target="_blank">
           <FaGithub />
         </a>
-        <a href="https://www.facebook.com/umarkhandev" target="_blank">
-          <FaFacebook />
+        <a
+          href="https://drive.google.com/file/d/1Qbs7sGUWGqwDvOetlSgk1uzwAfAvYlnf/view?usp=sharing"
+          target="_blank"
+        >
+          <PiReadCvLogoLight />
         </a>
-        <a href="https://www.instagram.com/umarkhaan._/" target="_blank">
+        <a href="https://www.instagram.com/umarkhhnn/" target="_blank">
           <FaInstagram />
         </a>
       </div>
