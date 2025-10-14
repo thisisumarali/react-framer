@@ -47,6 +47,7 @@ const Hero = () => {
               className="py-3 text-2xl lg:text-3xl font-semibold text-center lg:text-left"
             >
               <span className="text-slate-400">An expert in creating </span>
+              <br className="block lg:hidden" />
               <TypeAnimation
                 sequence={[
                   "web applications.",
