@@ -21,20 +21,19 @@ const Hero = () => {
                 variants={container(0)}
                 initial="hidden"
                 animate="visible"
-                className="pb-12 lg:pb-14 xl:pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
+                className="pb-8 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
               >
                 Umar Khan
               </motion.h1>
             </h1>
             <h2>
-       
               <motion.span
                 variants={container(0.5)}
                 initial="hidden"
                 animate="visible"
                 className="bg-gradient-to-t from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent"
               >
-                Full Stack - React Developer
+                Next Js / React Native Developer
               </motion.span>
             </h2>
             <motion.p
