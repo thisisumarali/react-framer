@@ -53,7 +53,7 @@ const Hero = () => {
                   className="py-3 text-2xl lg:text-3xl 2xl:text-4xl font-semibold text-center lg:text-left"
                 >
                   <span className="text-slate-400">An expert in creating </span>
-                  <br className="block md:hidden lg:block 2xl:hidden" />
+                  <br className="block md:hidden lg:block " />
                   <TypeAnimation
                     sequence={[
                       "Web applications.",
@@ -66,7 +66,7 @@ const Hero = () => {
                     wrapper="span"
                     speed={50}
                     repeat={Infinity}
-                    className="bg-gradient-to-r from-emerald-400 lg:text-5xl 2xl:text-4xl  via-cyan-400 to-blue-500 bg-clip-text text-transparent"
+                    className="bg-gradient-to-r from-emerald-400 lg:text-5xl  via-cyan-400 to-blue-500 bg-clip-text text-transparent"
                   />
                 </motion.div>
 
