@@ -29,13 +29,13 @@ const Certificates = () => {
             <img
               src={certificateImg}
               alt="Certificate 1"
-              className="w-full h-80  object-cover rounded-lg"
+              className="w-full h-64 md:h-80  object-cover rounded-lg"
             />
 
             <img
               src={certificateImg2}
               alt="Certificate 2"
-              className="w-full h-80 object-cover rounded-lg"
+              className="w-full h-64 md:h-80 object-cover rounded-lg"
             />
           </div>
         </div>
